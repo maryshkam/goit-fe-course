@@ -1,0 +1,20 @@
+.article {
+    /*outline: 1px solid #333;*/
+    width: 470px;
+    margin: auto;
+    box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.3);
+}
+
+.article-image {
+    margin: 20px;
+    margin-top: 30px;
+    width: 430px;
+}
+
+.article-title {
+    padding: 20px;
+}
+
+p {
+    padding: 20px;
+}
