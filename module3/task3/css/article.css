@@ -1,0 +1,30 @@
+.content {
+    width: 960px;
+    margin: auto;
+    box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.3);
+}
+
+.article {
+    display: inline-block;
+    width: 476px;
+    /* margin: auto; */
+    padding: 20px;
+}
+
+.article-image {
+    display: block;
+    padding: 20px;
+    margin-top: 30px;
+    width: 460px;;
+}
+
+.article-title {
+    padding: 20px;
+}
+.article:nth-child(2n) {
+    margin-right: 0;
+}
+
+p {
+    padding: 20px;
+}

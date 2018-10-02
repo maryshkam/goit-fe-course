@@ -1,0 +1,19 @@
+.menu {
+    list-style: none;
+    font-size: 0;
+}
+
+.menu-item {
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.menu-item:last-child {
+    margin-right: 0;
+}
+
+.menu-link {
+    text-decoration: none;
+
+}
