@@ -1,19 +1,38 @@
 .menu {
+    /* outline: 1px solid #333; */
     list-style: none;
     font-size: 0;
+    margin: 0 150px;
 }
 
 .menu-item {
     display: inline-block;
-    font-size: 16px;
-    margin-right: 10px;
+    font-size: 14px;
+    margin: 0 165px;
+    margin-top: 76px;
+    margin-bottom: 100px;     
+    margin-right: 0;
+    text-transform: uppercase;
+    text-align: center
 }
 
+.menu-item:nth-child(2) {
+    margin-left: 125px;
+}
+
+.menu-item:nth-child(3) {
+    margin-left: 105px;
+} 
+
 .menu-item:last-child {
-    margin-right: 0;
+    margin-left: 95px;
 }
 
 .menu-link {
     text-decoration: none;
+    color: #626262;
+}
 
+.menu-link:hover {
+    color: #03a9f4;
 }
