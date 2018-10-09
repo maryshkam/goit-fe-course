@@ -12,9 +12,18 @@
 
 .list-item {
   counter-increment: count-list;
+  padding: 10px;
 }
 
 .list-item::before {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  text-align: center;
   content: counter(count-list, upper-roman);
   margin-right: 15px;
+  padding: 5px 10px;
+  border: 1px solid #333;
+  background-color:#1789FC;
+  color: #fefefe;
 }
