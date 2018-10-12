@@ -5,8 +5,10 @@
 }
 
 .wrapper {
-    width: 1200px;
+    width: 960px;
     margin: 0 auto;
+    padding: 76px 0;
+    padding-left: 0;
     background-color: #fff;
     font-family: Playfair Display;
 }

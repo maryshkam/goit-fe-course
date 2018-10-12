@@ -1,31 +1,24 @@
+header {
+    margin-bottom: 100px;
+}
+
 .menu {
     /* outline: 1px solid #333; */
     list-style: none;
     font-size: 0;
-    margin: 0 150px;
+    margin-left: 165px;
 }
 
 .menu-item {
     display: inline-block;
-    font-size: 14px;
-    margin: 0 165px;
-    margin-top: 76px;
-    margin-bottom: 100px;     
-    margin-right: 0;
+    font-size: 14px;    
+    margin-right: 125px;
     text-transform: uppercase;
     text-align: center
 }
 
-.menu-item:nth-child(2) {
-    margin-left: 125px;
-}
-
-.menu-item:nth-child(3) {
-    margin-left: 105px;
-} 
-
 .menu-item:last-child {
-    margin-left: 95px;
+    margin-right: 0;
 }
 
 .menu-link {
