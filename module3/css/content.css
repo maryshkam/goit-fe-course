@@ -16,6 +16,10 @@
     margin-right: 0;
 }
 
+.article:nth-last-child(-n+2) {
+    margin-bottom: 0;
+}
+
 .article-img {
     width: 100%;
     margin-bottom: 30px;
@@ -39,16 +43,13 @@
     line-height: 1.3rem;
 }
 
-.article:nth-last-child(-n+2) {
-    margin-bottom: 0;
-}
-
 .button-more {
+    margin-top: 130px;
     display: block;
     margin: 0 auto;
     border: 1px solid #333;
     color: #626262;
     font-size: 20px;
     background-color: transparent;
-    /* padding: 22px 34px; */
+    padding: 22px 34px;
 }
