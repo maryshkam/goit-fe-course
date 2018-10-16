@@ -4,19 +4,26 @@
   color: #515151;
   text-align: center;
   text-transform: uppercase;
+  text-align: center;
+  /* margin-bottom: 30px; */
 }
 
-.gallery-title::before {
+.gallery-title::after {
+  content: '';
   display: block;
-  width: 100px;
-  height: 20px;
+  width: 165px;
+  height: 6px;
   background-color: #19bb9b;
-  margin-top: 40px;
+  margin: 30px auto 95px;
+  /* margin-top: 30px;
+  margin-bottom: 95px; */
+
 }
 
 .gallery {
   float: left;
   margin-right: 30px;
+  margin-bottom: 35px;
 }
 
 .gallery:nth-child(4n) {

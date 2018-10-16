@@ -1,11 +1,12 @@
 header {
-  /* vertical-align: 50%; */
-  outline: 1px solid #333;
+  /* outline: 1px solid #333; */
+  margin-bottom: 100px;
 }
 
 .logo {
   float: left;
   text-transform: uppercase;
+  text-decoration: none;
   font-family: 'Roboto-Light', sans-serif;
   font-size: 30px;
   line-height: 32px;
@@ -14,11 +15,13 @@ header {
 
 .logo::first-letter {
   color: #1abc9c;
+  font-family: 'Roboto-Black', sans-serif;
 }
 
 .menu {
   float: right;
   list-style: none;
+  padding-top: 10px;
   font-family: 'Roboto-Black', sans-serif;
   /* font-size: 20px; */
   line-height: 11px;
