@@ -3,3 +3,17 @@
   margin: 0;
   padding: 0;
 }
+
+.wrapper {
+  width: 1110px;
+  /* outline: 1px solid #333; */
+  margin: 0 auto;
+  padding: 35px 0;
+  background-color: #fff;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}

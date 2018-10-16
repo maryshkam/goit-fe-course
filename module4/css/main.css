@@ -1,0 +1,24 @@
+.gallery-title {
+  font-family: 'Roboto-Black', sans-serif;
+  font-size: 48px;
+  color: #515151;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.gallery-title::before {
+  display: block;
+  width: 100px;
+  height: 20px;
+  background-color: #19bb9b;
+  margin-top: 40px;
+}
+
+.gallery {
+  float: left;
+  margin-right: 30px;
+}
+
+.gallery:nth-child(4n) {
+  margin-right: 0;
+}

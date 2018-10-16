@@ -1,0 +1,44 @@
+header {
+  /* vertical-align: 50%; */
+  outline: 1px solid #333;
+}
+
+.logo {
+  float: left;
+  text-transform: uppercase;
+  font-family: 'Roboto-Light', sans-serif;
+  font-size: 30px;
+  line-height: 32px;
+  color: #515151;
+}
+
+.logo::first-letter {
+  color: #1abc9c;
+}
+
+.menu {
+  float: right;
+  list-style: none;
+  font-family: 'Roboto-Black', sans-serif;
+  /* font-size: 20px; */
+  line-height: 11px;
+}
+
+.menu-item {
+  display: inline-block;
+  text-transform: uppercase;
+  margin-right: 36px;
+}
+
+.menu-item:last-child {
+  margin-right: 0;
+}
+
+.menu-link {
+  text-decoration: none;
+  color: #515151;
+}
+
+.menu-link:hover {
+  color: #1abc9c;
+}
