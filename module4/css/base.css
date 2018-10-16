@@ -8,7 +8,8 @@
   width: 1110px;
   /* outline: 1px solid #333; */
   margin: 0 auto;
-  padding: 35px 0;
+  padding-top: 35px;
+  padding-bottom: 80px;
   background-color: #fff;
 }
 
