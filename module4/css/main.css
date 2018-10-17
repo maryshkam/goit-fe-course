@@ -25,6 +25,7 @@
   float: left;
   margin-right: 30px;
   margin-bottom: 35px;
+  position: relative;
 }
 
 .gallery:nth-child(4n) {
@@ -37,11 +38,71 @@
 
 .img-caption {
   text-transform: uppercase;
+  text-decoration: none;
   font-family: 'Roboto-Black', sans-serif;
   font-size: 18px;
   line-height: 32px;
-  color: #000;
+  color: #fff;
+  position: absolute;
+  bottom: 0px;
+  height: 40px;
+  padding-left: 13px;
+  padding-top: 5px;
+  width: 100%;
+  background-color: #323232;
 }
+
+.img-caption:hover {
+  background-color: #1abc9c;
+}
+
+.price {
+  float: right;
+  font-family: 'Roboto-Black', sans-serif;
+  font-size: 18px;
+  line-height: 32px;
+  color: #fff;
+  position: absolute;
+  right: 0px;
+  bottom: 0;
+  width: 55px;
+  padding: 4px;
+}
+/* .price {
+  text-align: center;
+  font-family: 'Roboto-Black', sans-serif;
+  font-size: 18px;
+  line-height: 32px;
+  background-color: #8c8c8c;
+  color: #fff;
+  position: absolute;
+  right: 0px;
+  bottom: 0;
+  width: 55px;
+  padding: 4px;
+} */
+
+.img-caption::after {
+  content: '$26';
+  text-align: center;
+  background-color: #8c8c8c;
+  position: absolute;
+  right: 0px;
+  bottom: 0;
+  width: 55px;
+  padding: 4px;
+  padding-left: 10px;
+}
+
+.img-caption:hover::after {
+  background-color: #7fd9c7;
+}
+
+
+
+/* .price:hover {
+  background-color: #7fd9c7;
+} */
 
 /* section blog */
 .blog-block {
