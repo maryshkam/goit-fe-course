@@ -1,21 +1,21 @@
 /* font-family OpenSans */
 @font-face {
   font-family: 'OpenSans-Light';
-  src: url('fonts/OpenSans/OpenSans-Light.ttf');
+  src: url('../fonts/OpenSans/OpenSans-Light.ttf');
   font-style: normal;
   font-weight: normal;
 }
 
 @font-face {
   font-family: 'OpenSans-Bold';
-  src: url('fonts/OpenSans/OpenSans-Bold.ttf');
+  src: url('../fonts/OpenSans/OpenSans-Bold.ttf');
   font-style: normal;
   font-weight: normal;
 }
 
 @font-face {
   font-family: 'OpenSans-SemiBold';
-  src: url('fonts/OpenSans/OpenSans-SemiBold.ttf');
+  src: url('../fonts/OpenSans/OpenSans-SemiBold.ttf');
   font-style: normal;
   font-weight: normal;
 }
@@ -24,14 +24,14 @@
 
 @font-face {
   font-family: 'Roboto-Light';
-  src: url('fonts/Roboto/Roboto-Light.ttf');
+  src: url('../fonts/Roboto/Roboto-Light.ttf');
   font-style: normal;
   font-weight: normal;
 }
 
 @font-face {
   font-family: 'Roboto-Bold';
-  src: url('fonts/Roboto/Roboto-Bold.ttf');
+  src: url('../fonts/Roboto/Roboto-Bold.ttf');
   font-style: normal;
   font-weight: normal;
 }

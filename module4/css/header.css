@@ -28,7 +28,8 @@ header {
 }
 
 .menu-item {
-  display: inline-block;
+  float: left;
+  /* display: inline-block; */
   text-transform: uppercase;
   margin-right: 36px;
 }
