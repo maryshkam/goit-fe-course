@@ -24,6 +24,7 @@
 
 @font-face {
   font-family: 'Roboto-Light';
+  /* src: url('https://fonts.googleapis.com/css?family=Roboto'); */
   src: url('../fonts/Roboto/Roboto-Light.ttf');
   font-style: normal;
   font-weight: normal;
@@ -32,6 +33,7 @@
 @font-face {
   font-family: 'Roboto-Bold';
   src: url('../fonts/Roboto/Roboto-Bold.ttf');
+  /* src: url('https://fonts.googleapis.com/css?family=Roboto'); */
   font-style: normal;
   font-weight: normal;
 }

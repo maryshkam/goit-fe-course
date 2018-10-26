@@ -50,30 +50,39 @@
   height: 40px;
   padding-left: 13px;
   padding-top: 5px;
-  width: 100%;
+  width: 75%;
   background-color: #323232;
 }
 
-.img-caption:hover {
+/* .img-caption:hover {
   background-color: #1abc9c;
-}
+} */
 
 .price {
   float: right;
   font-family: 'Roboto-Black', sans-serif;
   font-size: 18px;
   line-height: 32px;
+  text-align: center;
   color: #fff;
   position: absolute;
   right: 0px;
   bottom: 0;
-  width: 55px;
+  width: 25%;
   padding: 4px;
+  background-color: #8c8c8c;
 }
 
+figure:hover .img-caption {
+  background-color: #1abc9c;
+}
 
-.img-caption::after {
-  content: '$26';
+figure:hover .price {
+  background-color: #7fd9c7;
+}
+
+/* .img-caption::after {
+  content: '';
   text-align: center;
   background-color: #8c8c8c;
   position: absolute;
@@ -82,11 +91,11 @@
   width: 55px;
   padding: 4px;
   padding-left: 10px;
-}
+} */
 
-.img-caption:hover::after {
+/* .img-caption:hover::after {
   background-color: #7fd9c7;
-}
+} */
 
 
 /* section blog */
