@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  width: 400px;
+  height: 400px;
+  background-color: #424242;
+  margin: 0 auto;
+  position: relative;
+}
+
+.block {
+  height: 100px;
+  width: 100px;
+}
+
+.blue {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: blue;
+}
+
+.green {
+  background-color: green;
+  position: absolute;
+  left: 37.5%;
+  top: 0;
+}
+
+.pink {
+  background-color: pink;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.red {
+  background-color: red;
+  position: absolute;
+  left: 0;
+  top: 37.5%;
+}
+
+.orange {
+  background-color: orange;
+  position: absolute;
+  left: 37.5%;
+  top: 37.5%;
+}
+
+.purple {
+  background-color: purple;
+  position: absolute;
+  right: 0;
+  top: 37.5%;
+}
+
+.darkgreen {
+  background-color: darkgreen;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.yellow {
+  background-color: yellow;
+  position: absolute;
+  left: 37.5%;
+  bottom: 0;
+}
+
+.skyblue {
+  background-color: skyblue;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
