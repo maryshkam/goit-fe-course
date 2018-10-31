@@ -8,10 +8,7 @@
   width: 100%;
   min-height: 100vh;
   background-size: cover;
-  /* background-image: url(https://mdn.mozillademos.org/files/11305/firefox.png), linear-gradient(to right, rgba(30, 75, 115, 1), rgba(255, 255, 255, 0)); */
-/* background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(30, 75, 115, .3)); */
   background-image: url(http://placeimg.com/640/480/tech);
   background-color: rgba(0, 0, 0, 0.3);
   /* background-image: linear-gradient(red, blue); */
 }
-/* rl(https://webassets.ssisurveys.com/savewithsurveys/panel/spot_art/green_top_bar.png) 2000px bottom #a4cb5a!important; */
