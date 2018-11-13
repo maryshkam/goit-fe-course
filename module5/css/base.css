@@ -4,3 +4,8 @@
   padding: 0;
 }
 
+.clearfix {
+  content: '';
+  display: table;
+  clear: both;
+}

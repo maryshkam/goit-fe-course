@@ -1,0 +1,140 @@
+.collection {
+  background-color: #e9f0fd;
+  width: 100%;
+  padding: 100px 0;
+}
+
+.collection-title {
+  text-transform: uppercase;
+  font-family: RobotoBlack;
+  font-size: 48px;
+  color: #515151;
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Roboto-Black';
+}
+
+.collection-title::after {
+  content: '';
+  display: block;
+  width: 165px;
+  height: 6px;
+  background-color: #1abc9c;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.gallery-collection {
+  margin: 0 auto;
+  margin-top: 80px;
+}
+
+.gallery {
+  float: left;
+  margin-right: 25px;
+  background-color: #fff;
+  position: relative;
+}
+
+.gallery:last-child {
+  margin-right: 0;
+}
+
+
+.img-caption {
+  text-transform: uppercase;
+  text-decoration: none;
+  position: absolute;
+  bottom: 0;
+  width: 75%;
+  padding: 15px;
+  background-color: #323232;
+  color: #fff;
+  font-size: 18px;
+  font-family: 'Roboto-Black';
+}
+
+.price {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 15px;
+  background-color: #8c8c8c;
+  color: #fff;
+  font-size: 18px;
+  width: 25%;
+  font-family: 'Roboto-Black';
+}
+
+.gallery-hover {}
+
+.gallery::before {
+  content: '';
+  display: block;
+  background-color: rgba(0, 0, 0, .5);
+  /* border-width: 10px;
+  border-color: #fff; */
+  width: 90%;
+  height: 75%;
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  /* outline: 1px solid #333; */
+  /* z-index: 1; */
+}
+
+.box-blocks {
+  display: block;
+  /* background-color: rgba(0, 0, 0, .5); */
+  /* border-width: 10px;
+  border-color: #fff; */
+  /* width: 170px;
+  height: 110px; */
+  position: absolute;
+  top: 25%;
+  left: 17%;
+  /* outline: 1px solid #333; */
+  /* z-index: 1; */
+}
+
+.icon {
+  width: 48px;
+  height: 48px;
+  text-align: center;
+  border: 1px solid #fff;
+  display: block;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 6px;
+}
+
+.icon:nth-child(3) {
+  margin-right: 0;
+}
+
+.cart {
+  text-transform: uppercase;
+  text-decoration: none;
+  width: 165px;
+  background-color: #323232;
+  border: 1px solid #fff;
+  color: #fff;
+  font-size: 14px;
+  float: left;
+  padding: 19px;
+}
+
+figure:hover .img-caption {
+  background-color: #1abc9c;
+}
+
+figure:hover .price {
+  background-color: #7fd9c7;
+}
+
+figure:hover .box-blocks {
+  display: block;
+}
+
+.pe-7s-like {
+}
