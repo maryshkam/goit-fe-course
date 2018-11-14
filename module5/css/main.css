@@ -66,21 +66,15 @@
   font-family: 'Roboto-Black';
 }
 
-.gallery-hover {}
-
-.gallery::before {
-  content: '';
-  display: block;
+.gallery-hover {
+  display: none;
   background-color: rgba(0, 0, 0, .5);
-  /* border-width: 10px;
-  border-color: #fff; */
   width: 90%;
   height: 75%;
   position: absolute;
   top: 5%;
   left: 5%;
-  /* outline: 1px solid #333; */
-  /* z-index: 1; */
+  z-index: 1;
 }
 
 .box-blocks {
@@ -94,7 +88,7 @@
   top: 25%;
   left: 17%;
   /* outline: 1px solid #333; */
-  /* z-index: 1; */
+  z-index: 1;
 }
 
 .icon {
@@ -110,6 +104,10 @@
 
 .icon:nth-child(3) {
   margin-right: 0;
+}
+
+.icon:hover {
+  background-color: #1abc9c;
 }
 
 .cart {
@@ -132,9 +130,6 @@ figure:hover .price {
   background-color: #7fd9c7;
 }
 
-figure:hover .box-blocks {
+figure:hover .gallery-hover {
   display: block;
-}
-
-.pe-7s-like {
 }
