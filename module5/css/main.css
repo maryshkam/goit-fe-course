@@ -1,3 +1,5 @@
+/* gallery of collection */
+
 .collection {
   background-color: #e9f0fd;
   width: 100%;
@@ -65,7 +67,7 @@
   width: 25%;
   font-family: 'Roboto-Black';
 }
-
+/* hover for image, icon-block */
 .gallery-hover {
   display: none;
   background-color: rgba(0, 0, 0, .5);
@@ -79,16 +81,7 @@
 
 .box-blocks {
   display: block;
-  /* background-color: rgba(0, 0, 0, .5); */
-  /* border-width: 10px;
-  border-color: #fff; */
-  /* width: 170px;
-  height: 110px; */
-  position: absolute;
-  top: 25%;
-  left: 17%;
-  /* outline: 1px solid #333; */
-  z-index: 1;
+  padding: 80px 30px 75px;
 }
 
 .icon {
@@ -100,6 +93,7 @@
   float: left;
   margin-right: 10px;
   margin-bottom: 6px;
+  /* padding: 10px; */
 }
 
 .icon:nth-child(3) {
@@ -108,28 +102,80 @@
 
 .icon:hover {
   background-color: #1abc9c;
+  /* padding: 10px; */
 }
 
-.cart {
-  text-transform: uppercase;
-  text-decoration: none;
+.like {
+  display: block;
+  width: 35px;
+  height: 35px;
+  margin: 6px;
+  background-image: url(../img/icon/like.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+
+}
+
+
+.shuffle {
+  display: block;
+  width: 35px;
+  height: 35px;
+  margin: 6px;
+  background-image: url(../img/icon/shuffle.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.clock {
+  display: block;
+  width: 35px;
+  height: 35px;
+  margin: 6px;
+  background-image: url(../img/icon/clock.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.cart-box {
   width: 165px;
   background-color: #323232;
   border: 1px solid #fff;
-  color: #fff;
-  font-size: 14px;
+
+
   float: left;
-  padding: 19px;
+  padding: 10px;
 }
 
-figure:hover .img-caption {
+.cart-icon {
+  display: block;
+  float: left;
+  width: 35px;
+  height: 35px;
+  /* margin: 6px; */
+  background-image: url(../img/icon/cart.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.cart-text {
+  color: #fff;
+  font-size: 14px;
+  font-family: 'OpenSans-SemiBold';
+  text-transform: uppercase;
+  text-decoration: none;
+  float: right;
+  padding: 12px 5px;
+}
+
+.gallery:hover .img-caption {
   background-color: #1abc9c;
 }
 
-figure:hover .price {
+.gallery:hover .price {
   background-color: #7fd9c7;
 }
 
-figure:hover .gallery-hover {
+.gallery:hover .gallery-hover {
   display: block;
 }

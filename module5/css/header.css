@@ -80,9 +80,13 @@
   width: 104px;
   height: 104px;
   display: block;
-  content: '';
-  /* color: #fff; */
+  content: '\003C';
+  color: #fff;
+  font-size: 80px;
+  font-family: 'Roboto-Light';
   background-color: rgba(78, 198, 171, .65);
+  /* background-image: url(../img/arrow/left.png);
+  background-size: cover; */
   text-align: center;
   /* float: left; */
   bottom: 10%;
@@ -93,20 +97,14 @@
 .slider-content::after {
   width: 104px;
   height: 104px;
-  /* display: inline-block; */
-  content: '';
-  /* color: #fff; */
+  content: '\003E';
+  color: #fff;
+  font-size: 80px;
+  font-family: 'Roboto-Light';
   background-color: rgba(78, 198, 171, .65);
   text-align: center;
   position: absolute;
-  /* float: right; */
   bottom: 10%;
-  /* top: 5%; */
   right: -20%;
-  /* margin-left: 80px;*/  
 } 
 
-/* .slider-content:hover::before,
-.slider-content:hover::after {
-  background-color: rgb(26, 188, 156);
-} */
