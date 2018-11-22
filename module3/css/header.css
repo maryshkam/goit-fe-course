@@ -6,7 +6,8 @@ header {
     /* outline: 1px solid #333; */
     list-style: none;
     font-size: 0;
-    margin-left: 165px;
+    /* margin-left: 165px; */
+    text-align: center;
 }
 
 .menu-item {
