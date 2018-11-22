@@ -29,6 +29,9 @@
   margin-bottom: 35px;
   position: relative;
 }
+.gallery-img {
+  display: block;
+}
 
 .gallery:nth-child(4n) {
   margin-right: 0;
@@ -45,7 +48,8 @@
   font-size: 18px;
   line-height: 32px;
   color: #fff;
-  position: absolute;
+  float: left;
+  /* position: absolute; */
   bottom: 0px;
   height: 40px;
   padding-left: 13px;
