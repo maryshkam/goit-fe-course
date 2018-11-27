@@ -1,21 +1,21 @@
 /* font-family OpenSans */
 @font-face {
   font-family: 'OpenSans-Light';
-  src: url('../fonts/OpenSans/OpenSans-Light.ttf');
+  src: url('../fonts/OpenSans/OpenSans-Light.ttf')format('trutype');
   font-style: normal;
   font-weight: normal;
 }
 
 @font-face {
   font-family: 'OpenSans-Bold';
-  src: url('../fonts/OpenSans/OpenSans-Bold.ttf');
+  src: url('../fonts/OpenSans/OpenSans-Bold.ttf')format('trutype');
   font-style: normal;
   font-weight: normal;
 }
 
 @font-face {
   font-family: 'OpenSans-SemiBold';
-  src: url('../fonts/OpenSans/OpenSans-SemiBold.ttf');
+  src: url('../fonts/OpenSans/OpenSans-SemiBold.ttf')format('trutype');
   font-style: normal;
   font-weight: normal;
 }
@@ -25,14 +25,14 @@
 @font-face {
   font-family: 'Roboto-Light';
   /* src: url('https://fonts.googleapis.com/css?family=Roboto'); */
-  src: url('../fonts/Roboto/Roboto-Light.ttf');
+  src: url('../fonts/Roboto/Roboto-Light.ttf')format('trutype');
   font-style: normal;
   font-weight: normal;
 }
 
 @font-face {
   font-family: 'Roboto-Bold';
-  src: url('../fonts/Roboto/Roboto-Bold.ttf');
+  src: url('../fonts/Roboto/Roboto-Bold.ttf')format('trutype');
   /* src: url('https://fonts.googleapis.com/css?family=Roboto'); */
   font-style: normal;
   font-weight: normal;

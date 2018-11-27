@@ -1,7 +1,7 @@
 .header-top {
   margin: 0 auto;
   width: 100%;
-  padding: 35px 245px;
+  padding: 35px 0;
 }
 
 .logo{
@@ -36,6 +36,7 @@
 }
 
 .menu-link {
+  display: block;
   font-family: 'OpenSans-Bold';
   text-decoration: none;
   color: #515151;
@@ -56,11 +57,13 @@
 }
 
 .slider-content {
-  margin: 0 auto;
+  padding-left: 190px;
+  /* margin: 0 auto; */
+  /* text-align: center; */
   position: relative;
 }
 .content-text {
-  float: left;
+  /* float: left; */
   text-transform: uppercase;
   color: #fff;
   font-size: 60px;
@@ -85,13 +88,13 @@
   font-size: 80px;
   font-family: 'Roboto-Light';
   background-color: rgba(78, 198, 171, .65);
-  /* background-image: url(../img/arrow/left.png);
-  background-size: cover; */
+  /* background-image: url(../img/arrow/left.png);*/
+  background-size: cover; 
   text-align: center;
-  /* float: left; */
+  /* /* float: left;  */
   bottom: 10%;
-  left: -20%;
-  /* margin-right: 80px; */
+  left: 0;
+  /* margin-right: 80px;  */
 }
 
 .slider-content::after {
@@ -105,6 +108,6 @@
   text-align: center;
   position: absolute;
   bottom: 10%;
-  right: -20%;
-} 
+  right: 0;
+}
 
