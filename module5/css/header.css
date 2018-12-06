@@ -57,7 +57,7 @@
 }
 
 .slider-content {
-  padding-left: 190px;
+  padding-left: 175px;
   /* margin: 0 auto; */
   /* text-align: center; */
   position: relative;
@@ -109,5 +109,6 @@
   position: absolute;
   bottom: 10%;
   right: 0;
+  /* margin-left: 50px; */
 }
 
