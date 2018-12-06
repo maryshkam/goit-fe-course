@@ -1,0 +1,95 @@
+.team-box {
+  /* display: flex; */
+  padding: 2rem;
+}
+
+.title {
+  display: block;
+  text-transform: uppercase;
+  color: #333;
+  font-size: 2rem;
+  text-align: center;
+  /* align-self: flex-start; */
+  margin-bottom: 2rem;
+}
+
+.team-card-box {
+  display: flex;
+  padding: 1rem;
+  /* background-color: blue; */
+  justify-content: space-around;
+}
+
+.team-card {
+  /* background-color: blanchedalmond; */
+  width: 45%;
+  border: .06rem solid transparent;
+  justify-content: space-between;
+  text-align: center;
+  padding: 1rem 2rem;
+}
+
+.team-card:hover {
+  /* border: .06rem solid #4a625d; */
+  box-shadow: .43rem 0.375rem 2.93rem .18rem rgba(84,78,84,0.86);
+}
+
+.team-card-content {
+  padding: 1rem;
+  /* background-color: aquamarine; */
+  border: .06rem solid #4a625d;
+}
+.team-card-content:hover {
+  border: none;
+  box-shadow: .43rem 0.375rem 2.93rem .18rem rgba(84,78,84,0.86);
+}
+
+.member-img {
+  width: 20.25rem;
+  height: 10.75rem;
+  background-size: cover;
+  margin-bottom: 1rem;
+}
+
+.member-img:hover {
+  /* transition-property: rotate(5deg); */
+  transform: rotate(5deg);
+  transition-duration: .2s;
+}
+
+.member-title {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.member-title:hover {
+  /* transition-property: color; */
+  color: #729743;
+  transition-duration: .2s;
+  transform: scale(1.15);
+  transition-duration: .3s;
+}
+
+/* .member-title:hover {
+  transform: scale(1.15);
+  transition-duration: .2s;
+} */
+
+.member-text {
+  margin-bottom: 1rem;
+}
+
+.like {
+  text-transform: uppercase;
+  background-color: #333333;
+  color: #fff;
+  text-align: center;
+  font-size: 1rem;
+  padding: 1rem 2rem;
+}
+
+.like:hover {
+  width: 100%;
+  background-color: #729743;
+  transition-duration: .2s;
+}
