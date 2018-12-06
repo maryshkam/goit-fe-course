@@ -1,0 +1,36 @@
+.gallery-title {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.gallery {
+  display: flex;
+  padding: 1rem;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.gallery-box {
+  width: 30%;
+  padding: 0.3rem;
+  background-color: #fff;
+  margin-bottom: 1rem;
+  border: 1px solid #fff;
+}
+
+.gallery-img {
+  width: 100%;
+  /* background-size: cover; */
+}
+
+.gallery-text {
+  text-transform: uppercase;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.gallery-box:hover .gallery-img {
+  padding: .7rem;
+}

@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+width: 75rem;
+min-height: 100vh;
+padding: 0.625rem;
+margin: 0 auto;
+background-color: #524352;
+outline: 1px solid #333;
+}
