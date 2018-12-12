@@ -1,0 +1,134 @@
+.team-description {
+  text-align: center;
+  line-height: 1.5rem;
+  margin-bottom: 5.875rem;
+}
+
+.team-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+
+.team-cart {
+  width: 30%;
+  position: relative;
+}
+
+/* figure {
+  position: relative;
+} */
+
+.figure-image {
+  background-color: #95e1d3;
+  /* background-image: url(../image/members/man1.png); */
+  width: 23.75rem;
+  height: 29.375rem;
+  /* position: absolute; */
+}
+
+figure:hover .figure-image {
+  /* background-color: #95e1d3; */
+  /* background-image: linear-gradient(rgba(243, 129, 129, .9), rgba(252, 227, 138, .9)), url(../image/members/man1.png); */
+  /* background-image: linear-gradient(rgba(243, 129, 129, .9), rgba(252, 227, 138, .9)); */
+  /* height: 29.375rem; */
+  position: absolute;
+  top: -3%;
+  left: -3%;
+  /* z-index: 1; */
+}
+
+
+
+.img-box {
+  background-color: #95e1d3;
+  width: 23.75rem;
+  height: 29.375rem;
+  position: relative;
+  /* margin-bottom: 30px; */
+}
+
+.member-description {
+  text-align: center;
+  padding: 30px;
+}
+
+.member-name {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: .875rem;
+  color: #333;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.member-position {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: .9375rem;
+  color: #999;
+}
+
+.member-hover {
+  position: absolute;
+  background-image: linear-gradient(rgba(243, 129, 129, .9), rgba(252, 227, 138, .9));
+  width: 23.75rem;
+  height: 29.375rem;
+  top: -3%;
+  left: -3%;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  /* padding: 80px; */
+
+}
+
+figure:hover .member-hover {
+  display: flex;
+}
+
+.social-box {
+  display: flex;
+
+}
+
+.icon-social {
+  /* width: 25%; */
+  width: 3.5rem;
+  height: 3.5rem;
+  border-right: 1px solid #f38181;
+  background-repeat: no-repeat;
+  background: center / contain no-repeat;
+  background-color: #fce38a;
+/* padding: 5px; */
+}
+
+.icon-social:hover {
+  background-color: #95e1d3;
+
+}
+
+.icon-social:last-child {
+  border-right: 0;
+}
+
+.facebook {
+  background-image: url(../image/icon/facebook.png);
+  /* width: 1.875rem;
+  width: 1.875rem;
+  background-size: contain; */
+
+}
+
+.twitter {
+  background-image: url(../image/icon/twitter.png);
+}
+
+.pinterest {
+  background-image: url(../image/icon/pinterest.png);
+}
+
+.instagram {
+  background-image: url(../image/icon/instagram.png);
+}

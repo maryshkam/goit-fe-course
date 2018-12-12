@@ -1,0 +1,46 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 0;
+
+  border-top: 1px solid rgb(229,229,229);
+}
+
+.template {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: .875rem;
+  color: #333;
+}
+
+.author {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: .875rem;
+  color: #f38181;
+}
+
+.form-email {
+  display: flex;
+  width: 24rem;
+
+
+}
+
+.form-example {
+  padding: 12px;
+  flex-grow: 1;
+
+}
+
+.submit {
+background-color: #95e1d3;
+text-align: center;
+padding: 1.875rem 2rem;
+font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: .875rem;
+  color: #fff;
+  /* width: 40%; */
+  flex-grow: 0;
+}
