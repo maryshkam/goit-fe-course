@@ -21,7 +21,7 @@
 
 .figure-image {
   background-color: #95e1d3;
-  width: 23.7rem;
+  width: 23.73rem;
   height: 29.3rem;
   transition: 200ms linear;
   /* transition-duration: 1s;
@@ -39,7 +39,7 @@ figure:hover .figure-image {
 .img-box {
   background-color: #95e1d3;
   width: 23.75rem;
-  height: 29.4rem;
+  height: 29.3rem;
   position: relative;
 }
 
