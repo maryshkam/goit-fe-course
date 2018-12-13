@@ -14,20 +14,13 @@
 
 .menu {
   display: flex;
+  flex-basis: 31rem;
   justify-content: space-between;
   list-style: none;
 }
 
 .menu-item {
   text-transform: uppercase;
-  margin-right: 3.75rem;
-  
-  /* margin-bottom: 0.75em; */
-
-}
-
-.menu-item:last-child {
-  margin-right: 0;
 }
 
 .menu-link {
@@ -36,7 +29,6 @@
   font-weight: 400;
   font-size: .875rem;
   color: #95e1d3;
-
 }
 
 .menu-link::after {
@@ -45,7 +37,6 @@
   min-width: 3.125rem;
   height: .1875rem;
   background-color: transparent;
-  
   margin-top: .75rem;
 }
 

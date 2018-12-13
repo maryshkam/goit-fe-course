@@ -13,7 +13,7 @@
 <body>
   <div class="wrapper">
     <header class="header">
-      <div class="logo">MoGo</div>
+      <h1 class="logo">MoGo</h1>
       <ul class="menu">
         <li class="menu-item"><a href="#" class="menu-link">about</a></li>
         <li class="menu-item"><a href="#" class="menu-link">service</a></li>
@@ -22,7 +22,7 @@
         <li class="menu-item"><a href="#" class="menu-link">contact</a></li>
       </ul>
     </header>
-    <section>
+    <section class="section-services">
       <div class="section-title">
         <p class="description">We work with</p>
         <h2 class="title">amazing services</h2>
@@ -30,7 +30,7 @@
       <div class="services-wrapper">
         <div class="services-box">
           <i class="icon alarm"></i>
-          <div class="services-description">
+          <div class="text">
             <h4 class="service-title">photography</h4>
             <p class="servise-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis voluptate ut
               praesentium.</p>
@@ -38,7 +38,7 @@
         </div>
         <div class="services-box">
           <i class="icon graph"></i>
-          <div class="services-description">
+          <div class="text">
             <h4 class="service-title">web-design</h4>
             <p class="servise-text">Ipsum, dolor sit amet consectetur adipisicing elit. Adipisci deleniti numquam hic
               earum.
@@ -47,7 +47,7 @@
         </div>
         <div class="services-box">
           <i class="icon computer"></i>
-          <div class="services-description">
+          <div class="text">
             <h4 class="service-title">creativity</h4>
             <p class="servise-text">Dolor sit amet consectetur adipisicing elit. Minus autem inventore doloribus
               tenetur atque.</p>
@@ -55,7 +55,7 @@
         </div>
         <div class="services-box">
           <i class="icon books"></i>
-          <div class="services-description">
+          <div class="text">
             <h4 class="service-title">seo</h4>
             <p class="servise-text">Ipsum dolor sit amet consectetur adipisicing elit. Aliquid accusantium porro
               consequatur id.</p>
@@ -63,7 +63,7 @@
         </div>
         <div class="services-box">
           <i class="icon home"></i>
-          <div class="services-description">
+          <div class="text">
             <h4 class="service-title">css/html</h4>
             <p class="servise-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non repudiandae expedita
               deserunt!</p>
@@ -71,7 +71,7 @@
         </div>
         <div class="services-box">
           <i class="icon digital"></i>
-          <div class="services-description">
+          <div class="text">
             <h4 class="service-title">digital</h4>
             <p class="servise-text">Sit amet consectetur adipisicing elit. Beatae ea perspiciatis, culpa voluptas
               consequuntur eaque?
@@ -80,7 +80,7 @@
         </div>
       </div>
     </section>
-    <section>
+    <section class="section-team">
       <div class="section-title">
         <p class="description">Who we are</p>
         <h2 class="title">meet our team</h2>
@@ -90,7 +90,7 @@
         beatae hic porro. Nisi exercitationem, tempora dolore eum tempore rerum fuga voluptatibus consequatur ullam!
         Unde fuga illum explicabo labore corporis numquam necessitatibus odit nam consectetur.</p>
       <div class="team-wrapper">
-        <team-cart>
+        <div class="team-cart">
           <figure>
             <div class="img-box">
               <img src="./image/members/man1.png" alt="" class="figure-image">
@@ -112,46 +112,64 @@
 
           </figure>
 
-        </team-cart>
-        <team-cart>
+        </div>
+        <div class="team-cart">
           <figure>
             <div class="img-box">
               <img src="./image/members/man2.png" alt="" class="figure-image">
+              <div class="member-hover">
+                <div class="social-box">
+                  <a href="#" class="icon-social facebook"></a>
+                  <!-- <a class="icon-social facebook"></a> -->
+                  <a href="#" class="icon-social twitter"></a>
+                  <a href="#" class="icon-social pinterest"></a>
+                  <a href="#" class="icon-social instagram"></a>
+                </div>
+              </div>
             </div>
             <figcaption class="member-description">
               <h5 class="member-name">christopher campbell</h5>
               <p class="member-position">Branding/UX design</p>
             </figcaption>
           </figure>
-        </team-cart>
-        <team-cart>
+        </div>
+        <div class="team-cart">
           <figure>
             <div class="img-box">
               <img src="./image/members/man3.png" alt="" class="figure-image">
+              <div class="member-hover">
+                <div class="social-box">
+                  <a href="#" class="icon-social facebook"></a>
+                  <!-- <a class="icon-social facebook"></a> -->
+                  <a href="#" class="icon-social twitter"></a>
+                  <a href="#" class="icon-social pinterest"></a>
+                  <a href="#" class="icon-social instagram"></a>
+                </div>
+              </div>
             </div>
             <figcaption class="member-description">
               <h5 class="member-name">michael fertig</h5>
               <p class="member-position">Developer</p>
             </figcaption>
           </figure>
-          <div class="member-hover">
 
-          </div>
-        </team-cart>
+
+        </div>
       </div>
+
     </section>
     <footer class="footer">
       <p class="template">&copy 2016 MoGo free PSD template by <span class="author">Laaqiq</span></p>
-      <div class="form-email">
-        <form action="#" method="GET">
-          <div class="form-example">
-            <input type="email" name="email" id="email" placeholder="Your Email" required>
-          </div>
-          <div class="submit">
-            <button type="submit" value="SUBSCRIBE">SUBSCRIBE</button>
-          </div>
-        </form>
-      </div>
+
+      <form class="form-email" action="#" method="GET">
+
+        <input class="form-example" type="email" name="email" id="email" placeholder="Your Email" required>
+
+
+        <button class="submit" type="submit" value="SUBSCRIBE">SUBSCRIBE</button>
+
+      </form>
+
     </footer>
   </div>
 </body>

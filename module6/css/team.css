@@ -1,3 +1,7 @@
+.section-team {
+  margin-bottom: 5.25rem;
+}
+
 .team-description {
   text-align: center;
   line-height: 1.5rem;
@@ -8,45 +12,35 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-bottom: 80px;
 }
 
 .team-cart {
-  width: 30%;
+  width: 32%;
   position: relative;
 }
-
-/* figure {
-  position: relative;
-} */
 
 .figure-image {
   background-color: #95e1d3;
-  /* background-image: url(../image/members/man1.png); */
   width: 23.75rem;
-  height: 29.375rem;
+  height: 29.3rem;
+  transition: 200ms linear;
+  /* transition-duration: 1s;
+  transition-timing-function: linear; */
   /* position: absolute; */
+  display: block;
 }
 
 figure:hover .figure-image {
-  /* background-color: #95e1d3; */
-  /* background-image: linear-gradient(rgba(243, 129, 129, .9), rgba(252, 227, 138, .9)), url(../image/members/man1.png); */
-  /* background-image: linear-gradient(rgba(243, 129, 129, .9), rgba(252, 227, 138, .9)); */
-  /* height: 29.375rem; */
-  position: absolute;
-  top: -3%;
-  left: -3%;
-  /* z-index: 1; */
+  /* top: -3%; */
+  /* left: -3%; */
+  transform: translate(-3%,-3%);
 }
-
-
 
 .img-box {
   background-color: #95e1d3;
   width: 23.75rem;
-  height: 29.375rem;
+  height: 29.3rem;
   position: relative;
-  /* margin-bottom: 30px; */
 }
 
 .member-description {
@@ -73,52 +67,49 @@ figure:hover .figure-image {
 .member-hover {
   position: absolute;
   background-image: linear-gradient(rgba(243, 129, 129, .9), rgba(252, 227, 138, .9));
-  width: 23.75rem;
-  height: 29.375rem;
-  top: -3%;
-  left: -3%;
-  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  transform: translate(0,0);
+  display: flex;
+  opacity: 0;
   justify-content: center;
   align-items: center;
   /* padding: 80px; */
+  transition-duration: 200ms;
+  transition-timing-function: linear;
 
 }
 
 figure:hover .member-hover {
-  display: flex;
+  opacity: 1;
+  transform: translate(-3%,-3%);
 }
 
 .social-box {
   display: flex;
-
 }
 
 .icon-social {
-  /* width: 25%; */
   width: 3.5rem;
   height: 3.5rem;
   border-right: 1px solid #f38181;
   background-repeat: no-repeat;
-  background: center / contain no-repeat;
+  background-position: center;
   background-color: #fce38a;
-/* padding: 5px; */
 }
 
 .icon-social:hover {
   background-color: #95e1d3;
-
 }
 
-.icon-social:last-child {
+/* .icon-social:last-child {
   border-right: 0;
-}
+} */
 
 .facebook {
   background-image: url(../image/icon/facebook.png);
-  /* width: 1.875rem;
-  width: 1.875rem;
-  background-size: contain; */
-
 }
 
 .twitter {
