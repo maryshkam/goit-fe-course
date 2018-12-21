@@ -1,3 +1,50 @@
-/* .services {
+.services-box {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  margin-bottom: 70px;
+}
+
+.article {
+  width: 30%;
+}
+
+.icon {
+  display: flex;
+  margin: auto;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  border: 2px solid var(--primary-golden-color);
+  background-position: center;
+  background-repeat: no-repeat;
+  /* padding: 5px; */
+  margin-bottom: 20px;
+}
+
+.icon-commerce {
+  background-image: url(../img/icon/Icon-Basket.png);
+}
+
+.icon-responsive {
+  background-image: url(../img/icon/Icon-Laptop.png);
+}
+
+.icon-security {
+  background-image: url(../img/icon/Icon-Locked.png);
+}
+
+.service-name {
+  margin-bottom: 20px;
+  font-family: 'Montserrat';
+  font-size: 1.125rem;
+  font-weight: 700;
   color: var(--primary-dark-color);
-} */
+}
+
+.service-descripton {
+  ont-family: 'Montserrat';
+  font-size: .875rem;
+  font-weight: 700;
+  color: var(--primary-gray-color);
+}
