@@ -1,0 +1,15 @@
+/* .button-box {
+  /* margin: o auto; 
+  text-align: center;
+} */
+
+.button {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 700;
+  background-color: red;
+  padding: 10px 20px;
+  margin-top: 10px;
+  
+}
