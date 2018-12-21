@@ -1,0 +1,62 @@
+.form {
+  /* display: flex; */
+  /* justify-content: space-between; */
+  /* flex-basis: 100%; */
+  /* flex-direction: column; */
+  font-family: 'Montserrat';
+  font-size: .875rem;
+  font-weight: 700;
+  margin-top: 4.6875rem;
+
+}
+
+.form-wrapper {
+display: flex;
+justify-content: space-between;
+/* padding: 75px 0px; */
+}
+
+input, textarea {
+  /* display: flex; */
+  margin-bottom: 25px;
+  
+}
+
+.block-information {
+  display: flex;
+  flex-direction: column;
+  width: 48%;
+  justify-content: space-between;
+}
+
+.message {
+width: 48%;
+}
+
+.input {
+  display: block;
+  /* width: 100%; */
+  padding: 10px 20px;
+}
+
+.button {
+  text-transform: uppercase;
+  align-self: flex-end;
+  color: var(--primary-light-color);
+  background-color: var(--primary-golden-color);
+  font-family: 'Montserrat';
+  font-size: 1.125rem;
+  font-weight: 700;
+  padding: 20px 50px;
+}
+
+input:valid, textarea:valid {
+  outline: 3px solid green;
+  /* border: 5px solid #ddffdd; */
+}
+
+input:invalid, textarea:invalid {
+  outline: 3px solid red;
+}
+
+

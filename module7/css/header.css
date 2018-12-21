@@ -1,0 +1,37 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 7.5rem;
+}
+
+.logo {
+  font-family: 'Dancing Script';
+  font-weight: 700;
+  color: var(--primary-golden-color);
+}
+
+.menu {
+  display: flex;
+  flex-basis: 30.625rem;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.menu-item {
+
+}
+
+.menu-link {
+text-decoration: none;
+text-transform: uppercase;
+color: var(--primary-dark-color);
+font-size: .875rem;
+font-family: 'Montserrat';
+  font-style: 900;
+  line-height: 2.5rem;
+}
+
+.menu-link:hover {
+  color: var(--primary-golden-color);
+}

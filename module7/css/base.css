@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  /* margin: 0 auto; */
+  padding: 2.5rem 0;
+}
+
+.wrapper--light {
+  /* height: 645px; */
+}
+
+.wrapper--dark {
+  background-color: var(--primary-dark-color);
+  /* height: 675px; */
+  padding: 105px 0;
+  
+}
+
+.container {
+  margin: 0 auto;
+  width: 940px;
+  text-align: center;
+  
+}
