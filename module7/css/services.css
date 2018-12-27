@@ -2,7 +2,7 @@
   display: flex;
   text-align: center;
   justify-content: space-between;
-  margin-bottom: 70px;
+  /* margin-bottom: 70px; */
 }
 
 .article {
@@ -43,7 +43,7 @@
 }
 
 .service-descripton {
-  ont-family: 'Montserrat';
+  font-family: 'Montserrat';
   font-size: .875rem;
   font-weight: 700;
   color: var(--primary-gray-color);

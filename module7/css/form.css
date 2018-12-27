@@ -2,14 +2,14 @@
   font-family: 'Montserrat';
   font-size: .875rem;
   font-weight: 700;
-  margin-top: 4.6875rem;
+  /* margin-top: 4.6875rem; */
 
 }
 
 .form-wrapper {
 display: flex;
 justify-content: space-between;
-}
+margin-bottom: 30px;}
 
 input, textarea {
   margin-bottom: 25px;
@@ -25,11 +25,16 @@ input, textarea {
 
 .message {
 width: 48%;
+resize: none;
 }
 
 .input {
   display: block;
   padding: 10px 20px;
+}
+
+.input:last-child {
+  margin-bottom: 0;
 }
 
 .button {

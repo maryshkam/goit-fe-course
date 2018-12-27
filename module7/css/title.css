@@ -24,7 +24,7 @@
 .container-title::after {
   content: 'Proin iaculis purus consequat sem cure.';
   display: block;
-  text-transform: uppercase;
+  text-transform: initial;
   color: var(--primary-gray-color);
   font-family: 'Elsie';
   font-size: 1rem;
