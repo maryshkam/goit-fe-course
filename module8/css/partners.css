@@ -1,0 +1,7 @@
+.partner-title {
+  font-size: 22px;
+  color: var(--primary-dark-color);
+  /* text-transform: initial; */
+  font-weight: 400;
+  margin-bottom: 20px;
+}

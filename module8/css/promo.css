@@ -1,0 +1,31 @@
+.promo {
+  background-color: var(--primary-dark-color);
+  background-image: url(../img/promo.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 30px 18px 135px ;
+  text-align: center;
+  
+}
+
+.promo-title {
+  width: 100%;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+
+.promo-text {
+  font-size: 18px;
+  font-weight: 300;
+  /* text-transform: uppercase; */
+  color: var(--primary-white-color);
+  padding: 0 15px;
+  margin-bottom: 15px;
+}
+
+.promo-box {
+
+}

@@ -1,0 +1,15 @@
+h1, h2, h3, h4 {
+  /* text-transform: uppercase; */
+  color: var(--primary-white-color);
+  font-family: 'Montserrat';
+
+}
+
+p {
+  font-family: 'Roboto Slab';
+  /* font-weight: 400; */
+}
+
+button {
+  font-family: 'Montserrat';
+}

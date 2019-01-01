@@ -1,0 +1,42 @@
+@media (min-width:480px) {
+  .red {
+    background-color: red;
+    height: 100px;
+    margin-bottom: 20px;
+  }
+
+  .green {
+    background-color: green;
+    height: 100px;
+    margin-bottom: 20px;
+  }
+
+  .blue{
+    background-color: blue;
+    height: 50px;
+  }
+}
+
+@media (min-width:768px) {
+  .task3 {
+    display: flex;
+    flex-basis: 100%;
+    justify-content: space-between;
+  }
+
+  .red {
+    height: 50px;;
+  }
+
+  .green {
+    width: 35%;
+    height: 200px;
+    margin-bottom: 0;
+  }
+
+  .blue {
+    width: 63%;
+    height: 200px;
+
+  }
+}

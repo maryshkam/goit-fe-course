@@ -1,0 +1,26 @@
+@import 'promo.css';
+@import 'header.css';
+@import 'button.css';
+@import 'partners.css';
+@import 'figure.css';
+
+
+.container {
+  max-width: 320px;
+  margin: 0 auto;
+  /* padding: 0 20px; */
+}
+
+.container--partner {
+  padding: 72px 30px 55px;
+  text-align: center;
+}
+
+.container--figure {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0 30px;
+  margin-bottom: 30px;
+
+}

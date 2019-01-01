@@ -1,0 +1,28 @@
+@media (min-width:480px) {
+  .content {
+    background-color: yellowgreen;
+    height: 200px;
+  }
+
+  .sidebar {
+    background-color: green;
+    height: 200px;
+
+  }
+}
+
+@media (min-width:768px) {
+  .task2 {
+    display: flex;
+    flex-basis: 100%;
+  }
+
+  .content {
+    width: 70%;
+  }
+
+  .sidebar {
+    width: 30%;
+
+  }
+}
