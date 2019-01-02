@@ -4,28 +4,24 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding: 30px 18px 135px ;
+  padding: 1.875rem 1.125rem 8.4375rem;
   text-align: center;
-  
+
 }
 
 .promo-title {
   width: 100%;
-  font-size: 30px;
+  font-size: 1.875rem;
   text-transform: uppercase;
   font-weight: normal;
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
 }
 
 .promo-text {
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 300;
   /* text-transform: uppercase; */
   color: var(--primary-white-color);
-  padding: 0 15px;
-  margin-bottom: 15px;
-}
-
-.promo-box {
-
+  padding: 0 .9375rem;
+  margin-bottom: .9375rem;
 }

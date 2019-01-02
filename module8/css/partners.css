@@ -1,8 +1,8 @@
 .partner-title {
   /* padding: o 20px; */
-  font-size: 22px;
+  font-size: 1.375rem;
   color: var(--primary-dark-color);
   /* text-transform: initial; */
   font-weight: 400;
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
 }
