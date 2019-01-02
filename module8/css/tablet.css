@@ -9,14 +9,15 @@
   }
   
   .container--partner {
-    padding: 75px 0 40px;
+    /* padding: 72px 30px 55px; */
+    /* padding: 75px 0 40px; */
     /* text-align: center; */
   }
   
   .container--figure { 
     max-width: 492px;
     /* flex-direction: column; */
-    /* padding: 0 30px; */
+    padding: 0;
     margin-bottom: 40px;
     align-items: flex-start;
   
@@ -67,17 +68,32 @@
   }
 
   .figure-partner {
+    max-width: 236px;
     width: 48%;
     /* margin: auto; */
-    margin-bottom: 60px;
+    align-items: baseline;
+    /* margin-bottom: 60px; */
     /* margin-top: 0; */
-    align-items: stretch;
+    /* align-items: stretch; */
     /* align-content: unset; */
+    
   }
 
   .figure-partner:nth-last-child(-n+2) {
     /* width: 48%; */
     /* margin: auto; */
-    margin-bottom: 0;
+    /* margin-bottom: 0; */
+  }
+
+  .girl1 {
+    /* display: flex; */
+    order: 2;
+    /* align-self: flex-start; */
+  }
+
+  .man2 {
+    order: 3;
+    /* width: 110%; */
+    /* margin-bottom: 0; */
   }
 }

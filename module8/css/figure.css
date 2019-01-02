@@ -3,7 +3,7 @@
   display: flex;
   flex-wrap: wrap;
   width: 95%;
-  margin: auto;
+  /* margin: auto; */
   margin-bottom: 30px;
 justify-content: center;
 }
@@ -78,3 +78,19 @@ justify-content: center;
   background-image: url(../img/icon/plane.png);
 }
 
+
+.man1 {
+  order: 1;
+}
+
+.man2 {
+  order: 2;
+}
+
+.girl1 {
+  order: 3;
+}
+
+.girl2 {
+  order: 4;
+}
