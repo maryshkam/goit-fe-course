@@ -36,6 +36,7 @@ do {
   inputUser = prompt('Введіть пароль');
   if (passwords.includes(inputUser)) {
     alert('Ласкаво просимо');
+    break;
   } else {
     // console.log('aaaaaa');
     attempts -=1;
