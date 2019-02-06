@@ -11,12 +11,10 @@ function getAllPropValues(arr, prop) {
   let result = [];
   for (const value of arr) {
       if (value.hasOwnProperty(prop)){
-        for (const keys in value) {
-          if (keys === prop) {
+        
             result.push(value[prop]);
           }
-        }
-      }
+
     }
     
     return result;

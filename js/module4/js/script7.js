@@ -19,13 +19,15 @@
 */
 
 function User (name, isActive, age, friends) {
+  // this = {}
   this.name = name;
   this.isActive = isActive;
   this.age = age;
   this.friends = friends;
   this.getUserInfo = function () {
-    console.log(`User ${name} is ${age} years old and has ${friends} friends`);
+    console.log(`User ${this.name} is ${this.age} years old and has ${this.friends} friends`);
   };
+  // return this
 }
 
 const mark = new User ('Mark', true, 25, 156);

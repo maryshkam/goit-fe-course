@@ -8,12 +8,12 @@
 
 function isObjectEmpty(a) {
   // console.log(a);
-  let count = 0;
-  for (const key in a) {
-    count++;
-  }
-  let result;
-  if (count === 0) {
+  // let count = 0;
+  // for (const key in a) {
+  //   count++;
+  // }
+  // let result;
+  if (Object.keys(a).length > 0) {
     result = true;
   } else {
     result = false;

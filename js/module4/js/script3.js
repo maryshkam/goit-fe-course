@@ -9,11 +9,13 @@
 
 
 function countProps (a) {
+return Object.keys(a).length;
+
   // console.log(a);
-  let count = 0;
-  for (const key in a) {
-    count ++;
-  } return count;
+  // let count = 0;
+  // for (const key in a) {
+  //   count ++;
+  // } return count;
 } 
 
 
