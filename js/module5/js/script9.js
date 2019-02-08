@@ -22,7 +22,7 @@ const guestsB = [
 ];
 
 const allGuestsActive = (arr) => {
-  const result = arr.every(obj => obj.isActive === true);
+  const result = arr.every(obj => obj.isActive);
   return result;
 }
 

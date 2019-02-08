@@ -17,7 +17,7 @@ const guests = [
 ];
 
 const getActiveGuests = (arr) => {
-  let newArr = arr.filter(arr => arr.isActive === true);
+  let newArr = arr.filter(arr => arr.isActive);
   return newArr;
 }
 
