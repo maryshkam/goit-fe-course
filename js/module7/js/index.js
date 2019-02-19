@@ -31,41 +31,51 @@ const posts = [
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, nemo dignissimos ea temporibus voluptatem maiores maxime consequatur impedit nobis sunt similique voluptas accusamus consequuntur, qui modi nesciunt veritatis distinctio rem!",
     link: 'link-3.com'
   }
+  // {
+  //   img: "https://placeimg.com/400/150/nature",
+  //   title: "Post title 4",
+  //   text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, nemo dignissimos ea temporibus voluptatem maiores maxime consequatur impedit nobis sunt similique voluptas accusamus consequuntur, qui modi nesciunt veritatis distinctio rem!",
+  //   link: 'link-4.com'
+  // }
 ];
 
-function createPostCard() {
-  // const body = document.querySelector('body');
-  const element = document.createElement('div');
-  // body.prepend(element);
-  element.classList.add('movie');
-  const foto = document.createElement('img');
-  element.append(foto);
-  foto.classList.add('movie__image');
-  foto.setAttribute('src', "http://image.tmdb.org/t/p/w500/rPdtLWNsZmAtoZl9PK7S2wE3qiS.jpg");
-  foto.setAttribute('alt', "movie image");
- 
-  const movieBody = document.createElement('div');
-  element.append(movieBody);
-  movieBody.classList.add('movie__body');
- 
-  const movieTittle = document.createElement('h2');
-  movieBody.append(movieTittle);
-  movieTittle.classList.add('movie__title');
-  movieTittle.textContent = "The Godfather";
- 
-  const description = document.createElement('p');
-  movieBody.append(description);
-  description.textContent = "Spanning the years 1945 to 1955, a chronicle of the fictional Italian-American Corleone crime family. When organized crime family patriarch, Vito Corleone barely survives an attempt on his life, his youngest son, Michael steps in to take care of the would-be killers, launching a campaign of bloody revenge.";
- description.classList.add('movie__description');
- 
- const movieDate = document.createElement('p');
- movieDate.classList.add('movie__date');
- movieBody.append(movieDate);
- movieDate.textContent = 'Released: 1972-03-14';
- 
- 
- const movieRating = document.createElement('p');
- movieRating.classList.add('movie__rating');
- movieBody.append(movieRating);
- movieRating.textContent = 'Rating: 8.6';
+const body = document.querySelector('body');
+  
+  const container = document.createElement('div');
+  body.prepend(container);
+
+
+
+function createPostCard(card) {
+  
+  // card.forEach(val => {
+    
+    const element = document.createElement('div');
+    
+    const foto = document.createElement('img');
+    element.append(foto);
+    foto.setAttribute('src', card.img);
+    const cardTitle = document.createElement('h2');
+    element.append(cardTitle);
+    cardTitle.textContent = card.title;
+
+    const text = document.createElement('p');
+  element.append(text);
+  text.textContent = card.text;
+  const link = document.createElement('a');
+  element.append(link);
+  link.setAttribute('href', card.link);
+  container.append(element);
+
+  // })
+  
+  
 }
+
+function createCards (el) {
+el.forEach(value => createPostCard(value));
+
+}
+
+// createPostCard(posts);
+createCards(posts);
