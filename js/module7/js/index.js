@@ -63,6 +63,7 @@ function createPostCard(card) {
   element.append(text);
   text.textContent = card.text;
   const link = document.createElement('a');
+  link.textContent= card.link;
   element.append(link);
   link.setAttribute('href', card.link);
   container.append(element);

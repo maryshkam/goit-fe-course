@@ -34,13 +34,21 @@ function createBoxes(num) {
       const heightProp = height + 'px';
       boxNew.style.width = widthProp;
       boxNew.style.height = heightProp;
-      boxNew.style.backgroundColor = getRandomColor();
+      boxNew.style.backgroundColor = getRandomRgb();
       width = width + 10;
       height = height + 10;
       // boxNew.setAttribute('backgroundColor:', getRandomColor());
       box.append(boxNew);
   }
   container.append(box);
+}
+
+function getRandomRgb () {
+  let r = Math.floor(Math.random()*256);          
+  let g = Math.floor(Math.random()*256);          
+  let b = Math.floor(Math.random()*256);          
+  let rgb = 'rgb(' + r + ',' + g + ',' + b + ')';
+  return rgb;
 }
 
 function getRandomColor() {
